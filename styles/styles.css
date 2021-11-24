@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1105px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.nav-li {
+  display: inline-block;
+}
+
+.nav-li:not(:last-of-type) {
+  margin-right: 114px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #fa4a0c;
+}
+
+.app {
+  background-image: url('../img/Rectangle\ 48.png');
+  color: white;
+  text-align: center;
+  padding: 80px 0 162px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.app-pretitle {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.app-title {
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 80px;
+  max-width: 799px;
+  margin: 10px auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app-text {
+  font-size: 24px;
+  line-height: 38px;
+  margin-bottom: 54px;
+}
+
+.button {
+  width: 236px;
+  height: 68px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  cursor: pointer;
+}
+
+.button:first-of-type {
+  background: #fa4a0c;
+  border: 1px solid #fa4a0c;
+  margin-right: 67px;
+}
+
+.button:last-of-type {
+  background: none;
+  border: 1px solid white;
+}
+
+.main-mobile-title {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  color: #000000;
+  margin: 56px auto 70px auto;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-pretitle {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fa4a0c;
+}
+
+.mobile-title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  color: #252b42;
+  max-width: 560px;
+}
+
+.mobile-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #737373;
+  max-width: 467px;
+}
+
+.mobile2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 79px;
+  margin-bottom: 185px;
+}
+
+.mobile-pretitle2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fa4a0c;
+}
+
+.mobile-title2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  color: #252b42;
+  max-width: 480px;
+}
+
+.mobile-text2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #737373;
+  max-width: 462px;
+}
+
+.dl {
+  background-image: url('../img/Rectangle\ 47.png');
+  color: white;
+  text-align: center;
+  padding: 167px 0 131px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.dl-title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+}
+
+.dl-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  margin: 10px 0 60px;
+}
+
+.dl-button {
+  height: 64px;
+  border-radius: 10px;
+  padding: 18px 31px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+.dl-button:first-of-type {
+  background: #fa4a0c;
+  border: 1px solid #fa4a0c;
+  width: 142px;
+}
+
+.dl-button:last-of-type {
+  background: none;
+  border: 1px solid white;
+  width: 173px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 77px auto 27px;
+}
+
+.copywright {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #5c5c5c;
+  font-family: 'Roboto', sans-serif;
+}
